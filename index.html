@@ -16,6 +16,7 @@
         <title>Select video sources</title>
 
         <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
 
         <style>
             div.select {
@@ -46,7 +47,11 @@
                 <label for="videoSource">Video source: </label><select id="videoSource"></select>
             </div>
 
-            <video id="video" playsinline autoplay></video>
+            <div class="camera-container">
+                <video id="video" playsinline autoplay></video>
+            </div>
+
+           
 
         <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
         <script src="js/main.js" async></script>
